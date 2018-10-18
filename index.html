@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="shortcut icon" href="assets/nicole.png" type="image/x-png">
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Portfólio Nicole</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="main.js"></script>
+</head>
+<body>
+  <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+              <img src="assets/nicole.png" width="60" height="60" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+          <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="#sobre__titulo">Sobre<span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#servicos__titulo">Serviços</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#portfolio__titulo">Portfólio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#form__titulo">Contato</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        </nav>
+  </header>
+  <section>
+      <div id="carouselExampleControls" class= "carousel-banner carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img class="d-block w-100" src="assets/background-img.jpg" alt="First slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="assets/wireframe-img.jpg" alt="Second slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="assets/hand-world.jpg" alt="Third slide">
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+    </div>
+    </section>
+    <section class="sobre">
+      <div class="container">
+        <h1 class="sobre__titulo text-center m-4" id="sobre__titulo">Sobre mim</h1>
+        <p class="sobre__texto"> Estou me aventurando nesse novo mundo chamado front-end. Formada em marketing, estou sempre buscando novas experiências que possam agregar nesse incrível universo digital!
+        <p>Abaixo estão as minhas habilidades.</p>
+        <p>Aguardo seu contato. :)</p>
+        </p>
+        <div class="progress">
+            <div class="progress-bar text-dark" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">HTML</div>
+          </div>
+          <div class="progress">
+            <div class="progress-bar text-dark" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">CSS</div>
+          </div>
+          <div class="progress">
+            <div class="progress-bar text-dark" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">Pré-Processadores</div>
+          </div>
+          <div class="progress">
+            <div class="progress-bar text-dark" role="progressbar" style="width: 20%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">JavaScript</div>
+          </div>
+      </div>
+  </section>
+  <section class="servicos">
+      <div class="container">
+        <h2 class="servicos__titulo" id="servicos__titulo">Serviços</h2>
+        <div class="card-group">
+            <div class="card">
+              <img class="card-img-top" src="assets/responsive-img.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Sites responsivos</h5>
+                <p class="card-text">Todos os sites são desenvolvidos de forma responsiva.</p>
+              </div>
+            </div>
+            <div class="card">
+              <img class="card-img-top" src="assets/redes-sociais.png" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Social Media</h5>
+                <p class="card-text">Produzimos conteúdos semanais para suas redes sociais.</p>
+              </div>
+            </div>
+            <div class="card">
+              <img class="card-img-top" src="assets/suporte-img.png" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Suporte</h5>
+                <p class="card-text">Oferecemos suporte todos os dias das 8h às 18h.</p>
+              </div>
+            </div>
+          </div>
+      </div>
+  </section>
+  <section class="portfolio">
+    <div class="container">
+        <h2 class="portfolio__titulo" id="portfolio__titulo">Portfólio</h2>
+        <div class="zoom">
+            <img src="assets/m-de-maravilhosa.png" class="img-responsive">
+          </div>
+          <div class="portfolio-btn">
+              <button type="button" class="btn btn-primary m-5" data-target="#exampleModal" data-toggle="modal">Saiba Mais</button>
+            </div>
+          </div>
+  </section>
+          <!-- Modal -->
+          <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Projeto M de Maravilhosa</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true"></span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                 <p>Projeto desenvolvido durante o bootCamp da {reprograma}.</p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+              </div>
+            </div>
+          </div>
+    </div>
+  <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+  <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  <form class="container" style="background-color: #EFFBF8;">
+          <div class="form-group">
+              <h2 class="form__titulo" id="form__titulo">Contato</h2>
+              <label for="exampleFormControlInput1">Nome</label>
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Digite seu nome">
+
+              <label for="exampleFormControlInput2">Email</label>
+              <input type="email" class="form-control" id="exampleFormControlInput2" placeholder="Digite seu email">
+
+              <label for="exampleFormControlInput2">Telefone</label>
+              <input type="number" class="form-control" id="exampleFormControlInput3" placeholder= "Digite seu telefone">
+
+              <label for="msgContact">Escreva uma mensagem</label>
+              <textarea class="form-control" name="text" id="msgContact" rows="4" style="margin-top: 0px; margin-bottom: 0px; height: 54px;"></textarea>
+              <button type="submit" class="btn btn-primary mx-auto d-block m-5">Enviar</button>
+          </div>
+  </form>
+  <footer class="bg-dark p-5 rodape mt-30">
+      <div class="container">
+          <div class="instagram d-flex justify-content-center">
+              <a href="https://www.instagram.com/ninihalmeida/">
+                  <img src="assets/instagram.png" alt="icon-instagram" class="instagram-icon mr-3">
+              </a>
+              <a href="https://github.com/almeida-nicole">
+                  <img src="assets/github-logo.png" alt="github-logo.png" class="github-logo.png mr-3">
+              </a>
+          </div>
+      </div>
+  </footer>
+</body>
+</html>
