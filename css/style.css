@@ -23,10 +23,6 @@
   margin-bottom: 30px;
   text-align: center;
 }
-.portfolio img {
-  height: 80vh;
-  object-fit: cover;
-}
 
 .portfolio-btn {
   display: flex;
