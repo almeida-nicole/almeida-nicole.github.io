@@ -69,3 +69,13 @@
   border: 1px solid lightgray;
 
 }
+
+.nav-collapse-nic {
+  justify-content: flex-end;
+
+}
+
+.nav-link-nic {
+  text-align: right;
+
+}
